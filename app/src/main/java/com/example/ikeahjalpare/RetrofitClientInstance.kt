@@ -10,12 +10,14 @@ object RetrofitClientInstance {
 
     val retrofitInstance : Retrofit?
         get(){
-            if (retrofit == null){
+            // object has been created
+            if (retrofit == null){ //defined
+                // create it
                 retrofit = Retrofit.Builder()
-                    .baseUrl(BASE_URL)
+                    .baseUrl(BASE_URL) //base url defined
                     .addConverterFactory(GsonConverterFactory.create())
                     .build()
-            }
+            }       //return retrofit
             return retrofit
         }
 }
