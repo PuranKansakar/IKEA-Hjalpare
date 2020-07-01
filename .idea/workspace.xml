@@ -10,27 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84fd742f-2b70-4cb2-a01c-dbcac88b370e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/ikeahjalpare/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/ikeahjalpare/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/service/FurnitureService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/service/FurnitureService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -173,12 +161,20 @@
       <option name="project" value="LOCAL" />
       <updated>1593516918730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I have made significant changes this gets us into the ballpark again!">
+      <created>1593548439456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593548439456</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created branch freidrdCodeReview for review of work for assignment for Mobile Programming Class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created branch freidrdCodeReview for review of work for assignment for Mobile Programming Class." />
+    <MESSAGE value="I have made significant changes this gets us into the ballpark again!" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have made significant changes this gets us into the ballpark again!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2480" y="384" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593402261943">
@@ -198,10 +194,10 @@
     </state>
     <state x="2460" y="214" key="AndroidCreateResourceFileDialog/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593414659584" />
     <state x="432" y="239" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1593547930310" />
-    <state x="359" y="14" key="CommitChangelistDialog2" timestamp="1593516916948">
+    <state x="359" y="14" key="CommitChangelistDialog2" timestamp="1593548437736">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="359" y="14" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593516916948" />
+    <state x="359" y="14" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593548437736" />
     <state width="1872" height="280" key="GridCell.Tab.0.bottom" timestamp="1593411892871">
       <screen x="1920" y="-126" width="1920" height="1170" />
     </state>
@@ -218,22 +214,30 @@
       <screen x="1920" y="-126" width="1920" height="1170" />
     </state>
     <state width="1872" height="280" key="GridCell.Tab.0.right/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593411892871" />
+    <state x="261" y="65" key="SettingsEditor" timestamp="1593613709974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="65" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593613709974" />
     <state x="345" y="143" key="Vcs.Push.Dialog.v2" timestamp="1593544440075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="345" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593544440075" />
-    <state x="449" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1593545421711">
+    <state x="449" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1593612560486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593545421711" />
-    <state x="542" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593544222963">
+    <state x="449" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593612560486" />
+    <state x="542" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593613229020">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="542" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593544222963" />
-    <state x="498" y="181" width="672" height="478" key="search.everywhere.popup" timestamp="1593548005171">
+    <state x="542" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593613229020" />
+    <state x="451" y="213" key="git4idea.merge.GitPullDialog" timestamp="1593613915888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="451" y="213" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593613915888" />
+    <state x="498" y="181" width="672" height="478" key="search.everywhere.popup" timestamp="1593612997988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2543" y="131" width="672" height="678" key="search.everywhere.popup/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593408771153" />
-    <state x="498" y="181" width="672" height="478" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593548005171" />
+    <state x="498" y="181" width="672" height="478" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593612997988" />
   </component>
 </project>

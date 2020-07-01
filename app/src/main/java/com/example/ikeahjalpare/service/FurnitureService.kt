@@ -28,6 +28,6 @@ class FurnitureService {
                 _furnitures.value = response.body()
             }
         })
-            return _furnitures
+           return _furnitures
     }
 }

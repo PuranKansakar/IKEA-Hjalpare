@@ -7,21 +7,29 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.ikeahjalpare.R
-import com.example.ikeahjalpare.R.layout.activity_main
 import kotlinx.android.synthetic.main.activity_main.*
 
+@Suppress("UNREACHABLE_CODE")
 class MainFragment : Fragment() {
+
     private lateinit var viewModel: MainViewModel
+
+    companion object {
+        fun newInstance() = MainFragment()
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         return inflater.inflate(R.layout.activity_main, container, false)
-//        ViewModelProvider(this).get(MainViewModel:: class.java)
-//        val root = inflater.inflate(R.layout.activity_main, container, false)
-//        val textView:TextView = root.findViewById(R.id.activity_main)
-//        MainViewModel.text.observe(this.Observer {
-//            textView.text = it
-//        })
-//        return root
+
+        ViewModelProvider(this).get(MainViewModel:: class.java)
+
+
+        val root = inflater.inflate(R.layout.activity_main, container, false)
+        val textView:TextView = root.findViewById(R.id.activity_main)
+        MainViewModel.text.observe(this.Observer {
+            textView.text = it
+        })
+        return root
 
     }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -31,4 +39,6 @@ class MainFragment : Fragment() {
 //                furnitures -> actFurniture.setAdapter(ArrayAdapter(context!!, R.layout.support_simple_spinner_dropdown_item, furnitures))
 //        })
     }
+
+    
 }
