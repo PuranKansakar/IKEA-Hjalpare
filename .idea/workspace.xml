@@ -10,15 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84fd742f-2b70-4cb2-a01c-dbcac88b370e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/dao/IFurnitureDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/dao/IFurnitureDAO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/dto/Furniture.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/dto/Furniture.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/service/FurnitureService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/service/FurnitureService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <recent name="com.example.ikeahjalpare" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.ExampleUnitTest">
+  <component name="RunManager" selected="Android Instrumented Tests.useAppContext()">
     <configuration name="ExampleUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -94,6 +95,23 @@
       <option name="PACKAGE_NAME" value="com.example.ikeahjalpare" />
       <option name="MAIN_CLASS_NAME" value="com.example.ikeahjalpare.ExampleUnitTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleUnitTest.addition_isCorrect" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ikeahjalpare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ikeahjalpare" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ikeahjalpare.ExampleUnitTest" />
+      <option name="METHOD_NAME" value="addition_isCorrect" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -157,8 +175,58 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="useAppContext()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="useAppContext" />
+      <option name="CLASS_NAME" value="com.example.ikeahjalpare.ExampleInstrumentedTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android Instrumented Tests.useAppContext()" />
+        <item itemvalue="Android JUnit.ExampleUnitTest.addition_isCorrect" />
         <item itemvalue="Android JUnit.ExampleUnitTest" />
       </list>
     </recent_temporary>
@@ -195,14 +263,22 @@
       <option name="project" value="LOCAL" />
       <updated>1595252737339</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added implementation for viewmodel for kotlin in build.gradle file">
+      <created>1595255439372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595255439372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed inline comments in the build.gradle file and updated outdated imlementations" />
     <MESSAGE value="Added companion object back into MainFragment.kt" />
     <MESSAGE value="All corrections made except one problem in the MainFragment.kt file arranging the proper calls and imports is the probabale problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="All corrections made except one problem in the MainFragment.kt file arranging the proper calls and imports is the probabale problem." />
+    <MESSAGE value="Added implementation for viewmodel for kotlin in build.gradle file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added implementation for viewmodel for kotlin in build.gradle file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2480" y="384" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593402261943">
@@ -226,30 +302,38 @@
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
     <state x="799" y="425" key="AndroidCreateXmlResourceDialog/0.23.1920.1104@0.23.1920.1104" timestamp="1595250564499" />
-    <state x="420" y="174" key="CommitChangelistDialog2" timestamp="1595252736831">
+    <state x="420" y="174" key="CommitChangelistDialog2" timestamp="1595255438753">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
-    <state x="420" y="174" key="CommitChangelistDialog2/0.23.1920.1104@0.23.1920.1104" timestamp="1595252736831" />
-    <state width="1872" height="280" key="GridCell.Tab.0.bottom" timestamp="1593411892871">
-      <screen x="1920" y="-126" width="1920" height="1170" />
+    <state x="420" y="174" key="CommitChangelistDialog2/0.23.1920.1104@0.23.1920.1104" timestamp="1595255438753" />
+    <state width="1785" height="290" key="GridCell.Tab.0.bottom" timestamp="1595255680956">
+      <screen x="0" y="23" width="1920" height="1104" />
     </state>
     <state width="1872" height="280" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593411892871" />
-    <state width="1872" height="280" key="GridCell.Tab.0.center" timestamp="1593411892871">
-      <screen x="1920" y="-126" width="1920" height="1170" />
-    </state>
-    <state width="1872" height="280" key="GridCell.Tab.0.center/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593411892871" />
-    <state width="1872" height="280" key="GridCell.Tab.0.left" timestamp="1593411892871">
-      <screen x="1920" y="-126" width="1920" height="1170" />
-    </state>
-    <state width="1872" height="280" key="GridCell.Tab.0.left/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593411892871" />
-    <state width="1872" height="280" key="GridCell.Tab.0.right" timestamp="1593411892871">
-      <screen x="1920" y="-126" width="1920" height="1170" />
-    </state>
-    <state width="1872" height="280" key="GridCell.Tab.0.right/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593411892871" />
-    <state x="544" y="299" key="Vcs.Push.Dialog.v2" timestamp="1595252741074">
+    <state width="1785" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1104@0.23.1920.1104" timestamp="1595255680956" />
+    <state width="1785" height="290" key="GridCell.Tab.0.center" timestamp="1595255680955">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
-    <state x="544" y="299" key="Vcs.Push.Dialog.v2/0.23.1920.1104@0.23.1920.1104" timestamp="1595252741074" />
+    <state width="1872" height="280" key="GridCell.Tab.0.center/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593411892871" />
+    <state width="1785" height="290" key="GridCell.Tab.0.center/0.23.1920.1104@0.23.1920.1104" timestamp="1595255680955" />
+    <state width="1785" height="290" key="GridCell.Tab.0.left" timestamp="1595255680954">
+      <screen x="0" y="23" width="1920" height="1104" />
+    </state>
+    <state width="1872" height="280" key="GridCell.Tab.0.left/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593411892871" />
+    <state width="1785" height="290" key="GridCell.Tab.0.left/0.23.1920.1104@0.23.1920.1104" timestamp="1595255680954" />
+    <state width="1785" height="290" key="GridCell.Tab.0.right" timestamp="1595255680956">
+      <screen x="0" y="23" width="1920" height="1104" />
+    </state>
+    <state width="1872" height="280" key="GridCell.Tab.0.right/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593411892871" />
+    <state width="1785" height="290" key="GridCell.Tab.0.right/0.23.1920.1104@0.23.1920.1104" timestamp="1595255680956" />
+    <state x="446" y="210" key="SettingsEditor" timestamp="1595255802989">
+      <screen x="0" y="23" width="1920" height="1104" />
+    </state>
+    <state x="446" y="210" key="SettingsEditor/0.23.1920.1104@0.23.1920.1104" timestamp="1595255802989" />
+    <state x="544" y="299" key="Vcs.Push.Dialog.v2" timestamp="1595255441853">
+      <screen x="0" y="23" width="1920" height="1104" />
+    </state>
+    <state x="544" y="299" key="Vcs.Push.Dialog.v2/0.23.1920.1104@0.23.1920.1104" timestamp="1595255441853" />
     <state x="593" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1595253215970">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
