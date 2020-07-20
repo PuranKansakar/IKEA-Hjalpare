@@ -10,10 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84fd742f-2b70-4cb2-a01c-dbcac88b370e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_9_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_7_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/RetrofitClientInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/RetrofitClientInstance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/dao/IFurnitureDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/dao/IFurnitureDAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/dto/Furniture.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/dto/Furniture.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/service/FurnitureService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/service/FurnitureService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ikeahjalpare/ui/main/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +86,27 @@
       <recent name="com.example.ikeahjalpare" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.example.ikeahjalpare" />
       <recent name="com.example.ikeahjalpare.ui.main" />
+      <recent name="com.example.ikeahjalpare" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android JUnit.ExampleUnitTest">
+    <configuration name="ExampleUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ikeahjalpare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ikeahjalpare" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ikeahjalpare.ExampleUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -136,6 +165,11 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ExampleUnitTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -155,12 +189,20 @@
       <option name="project" value="LOCAL" />
       <updated>1595247741987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added companion object back into MainFragment.kt">
+      <created>1595248725362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595248725362</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed inline comments in the build.gradle file and updated outdated imlementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed inline comments in the build.gradle file and updated outdated imlementations" />
+    <MESSAGE value="Added companion object back into MainFragment.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added companion object back into MainFragment.kt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2480" y="384" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593402261943">
@@ -171,18 +213,23 @@
       <screen x="1920" y="-126" width="1920" height="1170" />
     </state>
     <state x="2676" y="339" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593402265729" />
-    <state x="2659" y="109" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1593407756830">
-      <screen x="1920" y="-126" width="1920" height="1170" />
+    <state x="739" y="245" width="577" height="685" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1595251264786">
+      <screen x="0" y="23" width="1920" height="1104" />
     </state>
     <state x="2659" y="109" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593407756830" />
+    <state x="739" y="245" width="577" height="685" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1104@0.23.1920.1104" timestamp="1595251264786" />
     <state x="2460" y="214" key="AndroidCreateResourceFileDialog" timestamp="1593414659584">
       <screen x="1920" y="-126" width="1920" height="1170" />
     </state>
     <state x="2460" y="214" key="AndroidCreateResourceFileDialog/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593414659584" />
-    <state x="479" y="174" key="CommitChangelistDialog2" timestamp="1595247741298">
+    <state x="799" y="425" key="AndroidCreateXmlResourceDialog" timestamp="1595250564499">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
-    <state x="479" y="174" key="CommitChangelistDialog2/0.23.1920.1104@0.23.1920.1104" timestamp="1595247741298" />
+    <state x="799" y="425" key="AndroidCreateXmlResourceDialog/0.23.1920.1104@0.23.1920.1104" timestamp="1595250564499" />
+    <state x="479" y="174" key="CommitChangelistDialog2" timestamp="1595248724925">
+      <screen x="0" y="23" width="1920" height="1104" />
+    </state>
+    <state x="479" y="174" key="CommitChangelistDialog2/0.23.1920.1104@0.23.1920.1104" timestamp="1595248724925" />
     <state width="1872" height="280" key="GridCell.Tab.0.bottom" timestamp="1593411892871">
       <screen x="1920" y="-126" width="1920" height="1170" />
     </state>
@@ -199,10 +246,10 @@
       <screen x="1920" y="-126" width="1920" height="1170" />
     </state>
     <state width="1872" height="280" key="GridCell.Tab.0.right/0.0.1280.689/1920.-126.1920.1170@1920.-126.1920.1170" timestamp="1593411892871" />
-    <state x="544" y="299" key="Vcs.Push.Dialog.v2" timestamp="1595247745802">
+    <state x="544" y="299" key="Vcs.Push.Dialog.v2" timestamp="1595248727559">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
-    <state x="544" y="299" key="Vcs.Push.Dialog.v2/0.23.1920.1104@0.23.1920.1104" timestamp="1595247745802" />
+    <state x="544" y="299" key="Vcs.Push.Dialog.v2/0.23.1920.1104@0.23.1920.1104" timestamp="1595248727559" />
     <state x="724" y="495" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595247494719">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>

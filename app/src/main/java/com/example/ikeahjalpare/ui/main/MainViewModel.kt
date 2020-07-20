@@ -6,9 +6,16 @@ import com.example.ikeahjalpare.dto.Furniture
 import com.example.ikeahjalpare.service.FurnitureService
 
 class MainViewModel : ViewModel() {
-    var furnitures: MutableLiveData<ArrayList<Furniture>> = MutableLiveData()
+    private var _furnitures: MutableLiveData<ArrayList<Furniture>> = MutableLiveData<ArrayList<Furniture>>()
     var furnitureService: FurnitureService = FurnitureService()
-    fun fetchFurnitures() {
-        furnitures = furnitureService.fetchFurnitures()
+    init {
+        fetchFurnitures()
     }
+    fun fetchFurnitures() {
+        _furnitures = furnitureService.fetchFurnitures()
+    }
+
+    internal var furnitures: MutableLiveData<ArrayList<Furniture>>
+        get() {return _furnitures}
+        set(value: MutableLiveData<java.util.ArrayList<Furniture>>) { _furnitures.value}
 }

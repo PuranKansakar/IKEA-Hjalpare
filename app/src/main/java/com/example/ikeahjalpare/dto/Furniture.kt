@@ -10,7 +10,6 @@ data class Furniture (
     @SerializedName("instructions_manuel")var instructionsManuel: String
 ){
     override fun toString(): String {
-        //formated like Furniture Name, link and intructions link
         return "$articleNumber $furnitureName $videoLink $instructionsManuel"
     }
 }

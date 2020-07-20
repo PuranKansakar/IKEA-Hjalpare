@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">IKEAHjalpare</string>
+    <string name="EnterFurniture">Furniture Search Request</string>
 </resources>

@@ -1,7 +1,7 @@
 package com.example.ikeahjalpare.service
 
 import androidx.lifecycle.MutableLiveData
-import com.example.ikeahjalpare.RetrofitClientInstance
+import com.example.ikeahjalpare.ui.main.RetrofitClientInstance
 import com.example.ikeahjalpare.dao.IFurnitureDAO
 import com.example.ikeahjalpare.dto.Furniture
 import retrofit2.Call
@@ -10,7 +10,7 @@ import retrofit2.Response
 
 class FurnitureService {
     fun fetchFurnitures() : MutableLiveData<ArrayList<Furniture>> {
-        //MVD is defined
+
         var _furnitures = MutableLiveData<ArrayList<Furniture>>()
         val service = RetrofitClientInstance.retrofitInstance?.create(IFurnitureDAO::class.java)
         val call = service?.getAllFurnitures()
