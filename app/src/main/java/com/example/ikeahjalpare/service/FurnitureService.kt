@@ -9,11 +9,11 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class FurnitureService {
-    fun fetchFurnitures() : MutableLiveData<ArrayList<Furniture>> {
 
+    fun fetchFurnitures(furnitureName: String) : MutableLiveData<ArrayList<Furniture>> {
         var _furnitures = MutableLiveData<ArrayList<Furniture>>()
         val service = RetrofitClientInstance.retrofitInstance?.create(IFurnitureDAO::class.java)
-        val call = service?.getAllFurnitures()
+        val call = service?.getFurniture(furnitureName)
 
         call?.enqueue(object: Callback<ArrayList<Furniture>> {
             //Call onFailure to determine if the response indicates success.

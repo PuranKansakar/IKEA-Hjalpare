@@ -7,9 +7,8 @@ data class Furniture (
     @SerializedName("article_number")var articleNumber:String,
     @SerializedName("furniture_name") var furnitureName: String,
     @SerializedName("video_link") var videoLink:String,
-    @SerializedName("instructions_manuel")var instructionsManuel: String
-){
-    override fun toString(): String {
-        return "$articleNumber $furnitureName $videoLink $instructionsManuel"
-    }
+    @SerializedName("instructions_manuel")var instructionsManuel: String)
+{
+    override fun toString() = "$articleNumber $furnitureName $videoLink $instructionsManuel"
+
 }

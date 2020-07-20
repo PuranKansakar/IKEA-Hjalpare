@@ -9,10 +9,10 @@ class MainViewModel : ViewModel() {
     private var _furnitures: MutableLiveData<ArrayList<Furniture>> = MutableLiveData<ArrayList<Furniture>>()
     var furnitureService: FurnitureService = FurnitureService()
     init {
-        fetchFurnitures()
+        fetchFurnitures("FurnitureName")
     }
-    fun fetchFurnitures() {
-        _furnitures = furnitureService.fetchFurnitures()
+    fun fetchFurnitures(FurnitureName: String) {
+        _furnitures = furnitureService.fetchFurnitures(FurnitureName)
     }
 
     internal var furnitures: MutableLiveData<ArrayList<Furniture>>
