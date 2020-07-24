@@ -11,7 +11,7 @@ import retrofit2.Response
 class FurnitureService {
     fun fetchFurniture(): MutableLiveData<ArrayList<Furniture>> {
         //MVD is defined
-        var _furniture = MutableLiveData<ArrayList<Furniture>>()
+        var furniture = MutableLiveData<ArrayList<Furniture>>()
         val service = RetrofitClientInstance.retrofitInstance?.create(IFurnitureDAO::class.java)
         val call = service?.getAllFurniture()
 
@@ -28,9 +28,9 @@ class FurnitureService {
                 call: Call<ArrayList<Furniture>>,
                 response: Response<ArrayList<Furniture>>
             ) {
-                _furniture.value = response.body()
+                furniture.value = response.body()
             }
         })
-        return _furniture
+        return furniture
     }
 }
