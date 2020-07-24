@@ -30,8 +30,8 @@ class MainFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
-        viewModel.furnitures.observe(this, Observer {
-                furnitures -> actFurniture.setAdapter(ArrayAdapter(context!!, R.layout.support_simple_spinner_dropdown_item, furnitures))
+        viewModel.furniture.observe(this, Observer {
+                furniture -> actFurniture.setAdapter(ArrayAdapter(context!!, R.layout.support_simple_spinner_dropdown_item, furniture))
         })
     }
 }

@@ -9,11 +9,11 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class FurnitureService {
-    fun fetchFurnitures(): MutableLiveData<ArrayList<Furniture>> {
+    fun fetchFurniture(): MutableLiveData<ArrayList<Furniture>> {
         //MVD is defined
-        var _furnitures = MutableLiveData<ArrayList<Furniture>>()
+        var _furniture = MutableLiveData<ArrayList<Furniture>>()
         val service = RetrofitClientInstance.retrofitInstance?.create(IFurnitureDAO::class.java)
-        val call = service?.getAllFurnitures()
+        val call = service?.getAllFurniture()
 
         call?.enqueue(object : Callback<ArrayList<Furniture>> {
             //Call onFailure to determine if the response indicates success.
@@ -28,9 +28,9 @@ class FurnitureService {
                 call: Call<ArrayList<Furniture>>,
                 response: Response<ArrayList<Furniture>>
             ) {
-                _furnitures.value = response.body()
+                _furniture.value = response.body()
             }
         })
-        return _furnitures
+        return _furniture
     }
 }

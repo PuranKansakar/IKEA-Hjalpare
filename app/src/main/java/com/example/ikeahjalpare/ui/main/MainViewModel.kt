@@ -6,9 +6,9 @@ import com.example.ikeahjalpare.dto.Furniture
 import com.example.ikeahjalpare.service.FurnitureService
 
 class MainViewModel : ViewModel() {
-    var furnitures: MutableLiveData<ArrayList<Furniture>> = MutableLiveData()
+    var furniture: MutableLiveData<ArrayList<Furniture>> = MutableLiveData()
     var furnitureService: FurnitureService = FurnitureService()
-    fun fetchFurnitures() {
-        furnitures = furnitureService.fetchFurnitures()
+    fun fetchFurniture() {
+        furniture = furnitureService.fetchFurniture()
     }
 }
