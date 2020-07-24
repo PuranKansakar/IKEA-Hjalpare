@@ -18,19 +18,11 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.activity_main, container, false)
-        val textView:TextView = root.findViewById(R.id.activity_main)
-        MainViewModel.text.observe(this.Observer {
-            textView.text = it
-        })
-        return root
-        //return inflater.inflate(activity_main, container, false)
+        return inflater.inflate(R.layout.activity_main, container, false)
     }
+
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
-        viewModel.furniture.observe(this, Observer {
-                furniture -> actFurniture.setAdapter(ArrayAdapter(context!!, R.layout.support_simple_spinner_dropdown_item, furniture))
-        })
     }
 }
