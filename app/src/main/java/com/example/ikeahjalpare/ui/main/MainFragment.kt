@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProvider
 import com.example.ikeahjalpare.R
 
 class MainFragment : Fragment() {
@@ -18,7 +18,6 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        ViewModelProviders.of(this).get(MainViewModel:: class.java)
         val root = inflater.inflate(R.layout.activity_main, container, false)
         val textView:TextView = root.findViewById(R.id.activity_main)
         MainViewModel.text.observe(this.Observer {
@@ -29,7 +28,7 @@ class MainFragment : Fragment() {
     }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         viewModel.furniture.observe(this, Observer {
                 furniture -> actFurniture.setAdapter(ArrayAdapter(context!!, R.layout.support_simple_spinner_dropdown_item, furniture))
         })
