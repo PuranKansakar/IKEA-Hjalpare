@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.ikeahjalpare.R
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainFragment : Fragment() {
     private lateinit var viewModel: MainViewModel

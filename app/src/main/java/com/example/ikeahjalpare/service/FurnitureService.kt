@@ -9,19 +9,20 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class FurnitureService {
-    fun fetchFurnitures() : MutableLiveData<ArrayList<Furniture>> {
+    fun fetchFurnitures(): MutableLiveData<ArrayList<Furniture>> {
         //MVD is defined
         var _furnitures = MutableLiveData<ArrayList<Furniture>>()
         val service = RetrofitClientInstance.retrofitInstance?.create(IFurnitureDAO::class.java)
         val call = service?.getAllFurnitures()
 
-        call?.enqueue(object: Callback<ArrayList<Furniture>> {
+        call?.enqueue(object : Callback<ArrayList<Furniture>> {
             //Call onFailure to determine if the response indicates success.
             override fun onFailure(call: Call<ArrayList<Furniture>>, t: Throwable) {
                 val j = 1 + 1
                 val i = 1 + 1
                 // throw Exception("Unable to read json file")
             }
+
             //Call onResponse to determine if the response indicates success.
             override fun onResponse(
                 call: Call<ArrayList<Furniture>>,
@@ -30,6 +31,6 @@ class FurnitureService {
                 _furnitures.value = response.body()
             }
         })
-            return _furnitures
+        return _furnitures
     }
 }

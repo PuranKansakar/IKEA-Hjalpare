@@ -8,10 +8,10 @@ object RetrofitClientInstance {
     private var retrofit: Retrofit? = null
     private val BASE_URL = "https://api.npoint.io"
 
-    val retrofitInstance : Retrofit?
-        get(){
+    val retrofitInstance: Retrofit?
+        get() {
             // object has been created
-            if (retrofit == null){ //defined
+            if (retrofit == null) { //defined
                 // create it
                 retrofit = Retrofit.Builder()
                     .baseUrl(BASE_URL) //base url defined
