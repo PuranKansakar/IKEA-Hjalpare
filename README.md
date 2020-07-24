@@ -1,4 +1,4 @@
-# IKEA-Hjalpare
+# IKEA-Hjalpare [![Stand-Up Tracker CI](https://circleci.com/gh/PuranKansakar/IKEA-Hjalpare.svg?style=svg)](https://app.circleci.com/pipelines/github/PuranKansakar/IKEA-Hjalpare)
 
 Design Document
 
